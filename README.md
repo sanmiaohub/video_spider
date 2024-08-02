@@ -20,6 +20,13 @@ ffmpeg的安装教程各linux的安装方法不一致，请自行百度安装。
 建议使用宝塔面板golang部署管理。
 
 ```shell
+
+git clone https://github.com/sanmiaohub/video_spider.git
+
+cd video_spider
+
+go mod download
+
 go env -w GOOS=linux
 
 go build -o analysis
