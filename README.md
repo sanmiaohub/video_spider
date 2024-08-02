@@ -78,6 +78,14 @@ curl --location --request POST 'http://127.0.0.1:8080/analysis' \
 }
 ```
 
+## 支持作者
+请作者喝杯咖啡吧！
+
+<img src="https://resources.linghanghuiye.com/image/console/20240802/66ac4cd7318ad1722567895.webp" alt="img" width="200" height="200">
+
+<img src="https://resources.linghanghuiye.com/image/console/20240802/66ac4ce6ec4ee1722567910.webp" alt="img" width="200" height="200">
+
+
 ## FAQ
 
 **关于配置项**
