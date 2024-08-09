@@ -46,6 +46,14 @@ func analysis(c echo.Context) error {
 		record, err = platform.BiliBiliPlatform{
 			Record: platform.Record{Link: link},
 		}.ParseOut()
+	case strings.Contains(link, "b23.tv"):
+		record, err = platform.BiliBiliPlatform{
+			Record: platform.Record{Link: link},
+		}.ParseOut()
+	case strings.Contains(link, "kuaishou.com"):
+		record, err = platform.QuickShouPlatform{
+			Record: platform.Record{Link: link},
+		}.ParseOut()
 	default:
 		err = errors.New("暂不支持该平台资源解析")
 	}
